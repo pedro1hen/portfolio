@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Portifólio | Pedro Henrique</title>
+    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Pedro Henrique">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <!-- JavaScript -->
+    <script src="js/script.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#start">Início</a></li>
+                    <li><a href="#aboutMe">Sobre mim</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <img src="img/Hamburger_icon.svg.png" alt="Menu" data-mobileMenu>
+            </div>
+
+        </nav>
+        <div class="mobile-menu-list invisible" data-mobileMenuList>
+            <ul>
+                <li><a href="#start">Início</a></li>
+                <li><a href="#aboutMe">Sobre mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+            </ul>
+        </div>        
+    </header>
+
+    <section class="start" id="start">
+        <h1 class="FirstTitle">Oi, Eu sou</h1>
+        <div class="letters">
+            <span data-letter class="invisible">P</span>
+            <span data-letter class="invisible">e</span>
+            <span data-letter class="invisible">d</span>
+            <span data-letter class="invisible">r</span>
+            <span data-letter class="invisible">o </span>
+            <span data-letter class="invisible">H</span>
+            <span data-letter class="invisible">e</span>
+            <span data-letter class="invisible">n</span>
+            <span data-letter class="invisible">r</span>
+            <span data-letter class="invisible">i</span>
+            <span data-letter class="invisible">q</span>
+            <span data-letter class="invisible">u</span>
+            <span data-letter class="invisible">e</span>
+            <span data-pointer>|</span>
+        </div>
+        <h2 class="SecondTitle">Desenvolvedor Front-end</h2>
+    </section>
+
+    <section class="aboutMe" id="aboutMe">
+        <img src="img/Me.jpeg" alt="Foto de Perfil">
+        <div class="aboutMeText">
+            <h1>Sobre mim</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam maxime aliquam ducimus unde quis doloribus ut molestias aspernatur totam modi laudantium laborum, quod aperiam atque eum perspiciatis earum in quo eos exercitationem rerum nihil. Nemo voluptatibus iste iusto! In, sed ab! Sint fuga eius hic! Quidem, voluptates harum enim vero, nemo esse recusandae quo</p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skillsTitle">
+            <h1>Skills</h1>
+        </div>
+        <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+            <swiper-slide>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <div class="skillsText">
+                    <h1>HTML</h1>
+                    <p>Linguagem de marcação utilizada na construção de páginas na Web.</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <div class="skillsText">
+                    <h1>CSS</h1>
+                    <p>Mecanismo para adicionar estilos a uma página web.</p>
+                </div>                
+            </swiper-slide>
+            <swiper-slide>
+                <img class="icon" src="./img/icons8-sass.svg" />
+                <div class="skillsText">
+                    <h1>SASS</h1>
+                    <p>Linguagem de extensão do CSS, significa “Syntactically Awesome Style Sheets”.</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                <div class="skillsText">
+                    <h1>BOOTSTRAP</h1>
+                    <p>Framework web com código-fonte aberto para desenvolvimento de aplicações web.</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <div class="skillsText">
+                    <h1>JAVASCRIPT</h1>
+                    <p>Linguagem de programação interpretada estruturada. Juntamente com HTML e CSS, é uma das principais tecnologias da web.</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                <div class="skillsText">
+                    <h1>GIT</h1>
+                    <p>Sistema de controle de versões distribuído inicialmente projetado para o desenvolvimento do kernel Linux.</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <div class="skillsText">
+                    <h1>GITHUB</h1>
+                    <p>Plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
+                </div>
+            </swiper-slide>
+        </swiper-container>
+        
+    </section>
+    
+</body>
+</html>

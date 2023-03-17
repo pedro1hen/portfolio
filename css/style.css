@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+@import 'pages/header.css';
+@import 'pages/main.css';
+@import 'pages/aboutMe.css';
+@import 'pages/skills.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.invisible {
+    display: none !important;
+}

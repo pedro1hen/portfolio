@@ -1,0 +1,43 @@
+.start {
+    background-image: linear-gradient(#A2BBC9, #091D21);
+    min-height: 100vh;
+    padding-left: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-family: 'Sono', sans-serif;
+    color: #fff;    
+}
+
+.FirstTitle, .SecondTitle {
+    font-size: 1.25rem;
+}
+
+.letters span {
+    font-size: 3rem;
+    transition: 1s;
+}
+
+@media screen and (max-width: 700px) {
+    .FirstTitle, .SecondTitle {
+        font-size: 0.8rem;
+    }
+
+    .letters span {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .FirstTitle, .SecondTitle {
+        font-size: 1rem;
+    }
+
+    .letters span {
+        font-size: 1.25rem;
+    }
+}
+
