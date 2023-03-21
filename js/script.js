@@ -8,9 +8,15 @@ mobileMenuIcon.addEventListener('click', () => {
     mobileMenuList.classList.toggle('invisible')
 })
 
+let seconds = 0
+
 document.addEventListener('DOMContentLoaded', () => {
-    setInterval(() => {
+    const intervalPointer = setInterval(() => {
+        seconds += 0.2
         pointer.classList.toggle('invisible')
+        if (seconds > 10) {
+            clearInterval(intervalPointer)
+        }
     }, 200)
 
     for (let i = 0; i < letters.length; i++) {
